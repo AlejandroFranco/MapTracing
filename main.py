@@ -11,7 +11,7 @@ class Ruta:
         self.nombre = nombre
         self.peso = peso
         self.einicio = einicio
-        self.egin = efin
+        self.efin = efin
 
 
 class Estacion:
@@ -26,7 +26,7 @@ class Lector:
     def decor(self, func):
         def wrap():
             print("\nPABLO ALEJANDRO FRANCO LEMUS\nLenguajes Formales y de programación\n")
-            print("\n201708993\n")
+            print("\n201708993\n ")
 
         return wrap()
 
